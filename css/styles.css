@@ -1,14 +1,25 @@
-.title{
+.title-one{
+    color: #4d5ae5;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
+    text-transform: uppercase
+}
+.title-two{
+    color: #2e2f42;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase
 }
 .sec-one-title{
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
@@ -17,24 +28,40 @@
     background-color: #2E2F42;
 }
 .nav-link{
+    color: #2e2f42;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+.nav-link:hover,
+.nav-link:focus{
+    color: #404bbf;
 }
 .add-link{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    font-style: normal
+}
+.add-link:hover,
+.add-link:focus{
+    color: #404bbf;
 }
 .title-button{
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
     background-color: #4D5AE5;
+    cursor: pointer;
+}
+.title-button:hover,
+.title-button:focus{
+    background-color: #404BBF;
 }
 .sec-two-title{
     font-weight: 500;
@@ -51,3 +78,60 @@
 .sec-three{
     background: #f4f4fd;
 }
+.sec-three-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+.sec-three-text{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+.sec-three-desc{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+}
+.sec-four-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+.sec-four-text{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.sec-four-desc{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.sec-five{
+    background-color: #2e2f42;
+}
+.sec-five-title{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    color: #f4f4fd;
+}
+.sec-five-text{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    }
