@@ -64,6 +64,7 @@
     background-color: #404BBF;
 }
 .sec-two-title{
+    color: #2e2f42;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -79,13 +80,19 @@
     background: #f4f4fd;
 }
 .sec-three-title{
+    color: #2e2f42;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
+}
+.sec-three-li{
+    background-color: #FFFFFF;
 }
 .sec-three-text{
+    color: #2e2f42;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -100,11 +107,13 @@
     color: #434455;
 }
 .sec-four-title{
+    color: #2e2f42;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
 }
 .sec-four-text{
     font-weight: 500;
